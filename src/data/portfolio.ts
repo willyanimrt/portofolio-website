@@ -26,7 +26,7 @@ export const projects = [
     description: "Predicted flight ticket prices based on historical data and market trends.",
     technologies: ["Python", "Scikit-learn", "Pandas"],
     image: "/images/projects/project2.jpeg",
-    link: "Link: https://prediksi-instagramgit-pjyayfkkmrcv5dxfhdjwkn.streamlit.app/",
+    link: "https://github.com/willyanimrt/airplanes-price-prediction",
   },
   {
     number: "03",
@@ -78,7 +78,7 @@ export const certificates = [
   },
   {
     number: "04",
-    name: "Certificate Name 4",
+    name: "Python for data Science",
     category: "Technology",
     description: "Description of the certificate and the skills acquired.",
     technologies: ["Technology", "Development"],
