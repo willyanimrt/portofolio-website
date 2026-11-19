@@ -75,7 +75,7 @@ export default function Contact({ dark }: Props) {
           <p className="text-3xl font-extrabold tracking-tight text-lime-600 dark:text-lime-400 sm:text-4xl lg:text-5xl">GET IN TOUCH</p>
 
           <p className={`mx-auto mt-5 max-w-2xl text-sm leading-7 sm:text-base ${dark ? "text-gray-400" : "text-gray-600"}`}>
-            Fill out the form below to send a message, discuss ideas, collaborate, or explore web development opportunities.
+            Let's connect, share ideas, and explore opportunities in data science and analytics.
           </p>
         </div>
 

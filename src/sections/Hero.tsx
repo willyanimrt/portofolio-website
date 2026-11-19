@@ -70,7 +70,7 @@ export default function Hero({ dark }: HeroProps) {
           </h2>
 
           <p className="mt-5 max-w-xl text-base leading-7 text-gray-600 sm:text-lg dark:text-gray-400">
-            Informatics Engineering graduate from UIN Maulana Malik Ibrahim Malang with a strong interest in Data Analysis and Data Science. Skilled in Python, SQL, Excel, and Power BI for data processing, analysis, and visualization.
+            Informatics Engineering graduate from UIN Maulana Malik Ibrahim Malang with a strong interest in Data Analysis and Data Science. Skilled in Python, SQL, Excel, Power BI, and Looker Studio for data processing, analysis, and visualization.
           </p>
 
           {/* Tombol aksi */}
@@ -79,9 +79,9 @@ export default function Hero({ dark }: HeroProps) {
               View Projects
               <ArrowDown size={17} />
             </a>
-            <a href="/cv.pdf" download className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-lime-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-lime-700">
+            <a href="https://drive.google.com/file/d/14Wdi8EexwHyP8A8hRw_bj0akGhp6VWiP/view?usp=sharing" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-lime-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-lime-700">
               <Download size={18} />
-              Download CV
+              View CV
             </a>
 
             {/* <a href="#contact" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-gray-300 px-5 py-3 text-sm font-semibold transition hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-800">
@@ -95,7 +95,7 @@ export default function Hero({ dark }: HeroProps) {
         <div className="relative min-w-0">
           <div className="relative mx-auto aspect-[3/4] w-full max-w-[300px] overflow-hidden rounded-3xl border border-gray-200 bg-gray-100 shadow-xl dark:border-gray-800 dark:bg-gray-900">
             <img
-              src="/images/profile.jpg"
+              src="/images/foto1.jpeg"
               alt={`Foto profil ${portfolio.name}`}
               className="absolute inset-0 h-full w-full object-contain"
               onError={(event) => {

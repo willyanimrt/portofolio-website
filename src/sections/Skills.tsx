@@ -2,7 +2,9 @@ import SectionHeading from "../components/SectionHeading";
 import type { IconType } from "react-icons";
 // import { SiPython, SiMysql, SiPandas, SiNumpy, SiLooker, SiGooglesheets, SiScikitlearn, SiGit, SiGithub, SiGooglecolab, SiVisualstudiocode, SiFigma, SiPostman, SiCanva, SiPowers } from "react-icons/si";
 import { FaChartLine, FaBrain, FaTree, FaProjectDiagram } from "react-icons/fa";
-import { SiFigma, SiGit, SiGithub, SiGooglecolab, SiGooglesheets, SiLooker, SiMysql, SiNumpy, SiPandas, SiPostman, SiPowers, SiPython, SiScikitlearn } from "react-icons/si";
+import { SiFigma, SiGit, SiGithub, SiGooglecolab, SiGooglesheets, SiLooker, SiMysql, SiNumpy, SiPandas, SiPostman, SiPython, SiScikitlearn } from "react-icons/si";
+import { BsFillBarChartFill } from "react-icons/bs";
+import { RiFileExcel2Fill } from "react-icons/ri";
 
 type Props = {
   dark: boolean;
@@ -31,8 +33,8 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Business Intelligence & Visualization",
     skills: [
-      // { name: "MS. Excel", icon: SiMicrosoft },
-      { name: "Power BI", icon: SiPowers },
+      { name: "MS. Excel", icon: RiFileExcel2Fill },
+      { name: "Power BI", icon: BsFillBarChartFill },
       { name: "Looker Studio", icon: SiLooker },
       { name: "Google Sheets", icon: SiGooglesheets },
       { name: "Seaborn", icon: SiPython },
