@@ -79,7 +79,7 @@ export default function Hero({ dark }: HeroProps) {
               View Projects
               <ArrowDown size={17} />
             </a>
-            <a href="https://drive.google.com/file/d/14Wdi8EexwHyP8A8hRw_bj0akGhp6VWiP/view?usp=sharing" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-lime-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-lime-700">
+            <a href="https://drive.google.com/file/d/1JsFozh9pCClKRxxpB3tiflZnhcgYnhvB/view?usp=sharing" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-lime-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-lime-700">
               <Download size={18} />
               View CV
             </a>
